@@ -187,6 +187,17 @@ nav ul
 .legumes a
 {
     color: #fff;
+    margin-left: 15px;
+}
+
+.legumes h2
+{  
+    font-weight: 200;
+    font-size: 1.5rem;
+    letter-spacing: 0.5px;
+    line-height: 30px;
+    margin-left: 15px;
+    margin-bottom: 15px;
 }
 
 .boissons
@@ -212,6 +223,17 @@ nav ul
 .boissons a
 {
     color: #fff;
+    margin-left: 15px;
+}
+
+.boissons h2
+{  
+    font-weight: 200;
+    font-size: 1.5rem;
+    letter-spacing: 0.5px;
+    line-height: 30px;
+    margin-left: 15px;
+    margin-bottom: 15px;
 }
 
 .produits
@@ -236,6 +258,17 @@ nav ul
 .produits a
 {
     color: #fff;
+    margin-left: 15px;
+}
+
+.produits h2
+{  
+    font-weight: 200;
+    font-size: 1.5rem;
+    letter-spacing: 0.5px;
+    line-height: 30px;
+    margin-left: 15px;
+    margin-bottom: 15px;
 }
 
 /* SALES / PRODUITS DANS LE VENT*/
@@ -539,6 +572,6 @@ footer
     bottom: 0;
     width: 360px;
     border-top-left-radius: 400%;
-    border-top: 3px solid greenyellow;
-    border-left: 35px solid greenyellow;
+    border-top: 3px solid rgb(153, 255, 0);
+    border-left: 35px solid rgb(153, 255, 0);
 }
