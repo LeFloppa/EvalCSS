@@ -537,8 +537,8 @@ footer
     position: absolute;
     right: 0;
     bottom: 0;
-    width: 334px;
+    width: 360px;
     border-top-left-radius: 400%;
-    border-width: 5px;
-    border-color: #AEDF23;
+    border-top: 3px solid greenyellow;
+    border-left: 35px solid greenyellow;
 }
