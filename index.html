@@ -1,67 +1,86 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-M69XNQ1L55"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-M69XNQ1L55');
+</script>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link rel="stylesheet" href="main.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/d3f339e842.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="assets/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/main.css">
     <title>Groxi Store</title>
 </head>
 <body>
     <header>
-        <img src="img/bg_fruit.png" id="bg_fruit" alt="">
-        <nav>
-            <a href="#"><img src="img/logo.png" alt="Groxi Store" id="logo"></a>
-            <div>
-                <ul>
+            <img src="img/bg_fruit.png" id="bg_fruit" alt="" class="img-fluid">
+            <nav>
+                <div class="col-md-3">
+                <a href="#"><img src="img/logo.png" alt="Groxi Store" id="logo" class="img-fluid"></a>
+            </div>
+                <div class="col-md-auto">
+                    <ul>
                     <li><a href="#" class="navtext">Accueil</a></li>
                     <li><a href="#" class="navtext">A propos</a></li>
                     <li><a href="#" class="navtext">Boutique</a></li>
                     <li><a href="#" class="navtext">Pages</a></li>
                     <li><a href="#" class="navtext">Blog</a></li>
                     <li><a href="#" class="navtext">Contact</a></li>
-                </ul>
+                    </ul>
+                </div>
+                <div class="col-md-auto">
+                    <ul>
+                    <li><a href="#" class="navicons"><i class="fa fa-search fa-lg" aria-hidden="true"></i></a></li>
+                    <li><a href="#" class="navicons"><i class="fa fa-user fa-lg" aria-hidden="true"></i></a></li>
+                    <li><a href="#" class="navicons"><i class="fa fa-heart fa-lg" aria-hidden="true"></i></a></li>
+                    <li><a href="#" class="navicons"><i class="fa fa-shopping-cart fa-lg" aria-hidden="true"></i></a></li>
+                    </ul>
+                </div>
+            </nav>
+            <div class="container-fluid container1">
+                <div class="col-md-6">
+                <p class="text1">Bienvenue sur notre épicerie en ligne</p>
+                <h1 class="h1text1">Boutique en ligne<br>de produits frais</h1>
+                <p class="text2">Votre click & collect près de chez vous</p>
+                <a href="#" id="btn1">Faire ses courses</a>
+                <a href="#" id="btn2">En savoir plus</a>
+                </div>
             </div>
-            <div>
-                <ul>
-                <li><a href="#" class="navicons"><i class="fa fa-search fa-lg" aria-hidden="true"></i></a></li>
-                <li><a href="#" class="navicons"><i class="fa fa-user fa-lg" aria-hidden="true"></i></a></li>
-                <li><a href="#" class="navicons"><i class="fa fa-heart fa-lg" aria-hidden="true"></i></a></li>
-                <li><a href="#" class="navicons"><i class="fa fa-shopping-cart fa-lg" aria-hidden="true"></i></a></li>
-                </ul>
-                <span class="badge">0</span>
-            </div>
-        </nav>
-        <div class="container1">
-            <p class="text1">Bienvenue sur notre épicerie en ligne</p>
-            <h1 class="h1text1">Boutique en ligne<br>de produits frais</h1>
-            <p class="text2">Votre click & collect près de chez vous</p>
-            <a href="#" id="btn1">Faire ses courses</a>
-            <a href="#" id="btn2">En savoir plus</a>
-        </div>
     </header>
     <main>
         <section class="categorie">
-
+    <div class="row">
         <div class="legumes">
+        <div class="col-md-4 col-sm-12">
             <h2>Trouvez vos<br>légumes<br>préférés</h2>
             <a href="#" class="Profite">J'en profite  <i class="fas fa-arrow-right ml-1"></i></a>
-            <img src="img/legumes.png" alt="légumes" id="legume">
+            </div>
         </div>
         <div class="boissons">
+        <div class="col-md-4 col-sm-12">
             <h2>Notre meilleure<br>sélection de<br>boissons</h2>
             <a href="#" class="Profite">J'en profite  <i class="fas fa-arrow-right ml-1"></i></a>
-            <img src="img/boisson.png" alt="Boissons" id="boisson">
+        </div>
         </div>
         <div class="produits">
+        <div class="col-md-4 col-sm-12">
             <h2>Produits<br>beauté et<br>santé</h2>
             <a href="#" class="Profite">J'en profite  <i class="fas fa-arrow-right ml-1"></i></a>
-            <img src="img/beaute.png" alt="Beauté et santé" id="beaute">
+            </div>
+            </div>
         </div>
+    </div>
         </section>
 
         <section class="products">
+            <div class="row">
             <div class="container2">
                 <div class="title">
                     <strong>Les plus populaires</strong>
@@ -69,6 +88,7 @@
                 </div>
                 <div class="boxes-top">
                     <div class="box">
+                        <div class="col-md-4 col-sm-12">
                         <div class="product-card">
                             <div>
                                 <p class="hot">Hot</p>
@@ -95,7 +115,9 @@
                             </div>
                         </div>
                     </div>
+                    </div>
                     <div class="box">
+                        <div class="col-md-4 col-sm-12">
                         <div class="product-card">
                             <div>
                                 <div class="heart">
@@ -121,7 +143,9 @@
                             </div>
                         </div>
                     </div>
+                    </div>
                     <div class="box">
+                        <div class="col-md-4 col-sm-12">
                         <div class="product-card">
                             <div>
                                 <div class="heart">
@@ -148,8 +172,10 @@
                         </div>
                     </div>
                 </div>
+                </div>
                 <div class="boxes-bot">
                     <div class="box">
+                    <div class="col-md-4 col-sm-12">
                         <div class="product-card">
                             <div>
                                 <div class="heart">
@@ -175,7 +201,9 @@
                             </div>
                         </div>
                     </div>
+                </div>
                     <div class="box">
+                        <div class="col-md-4 col-sm-12">
                         <div class="product-card">
                             <div>
                                 <div class="heart">
@@ -201,7 +229,9 @@
                             </div>
                         </div>
                     </div>
+                </div>
                     <div class="box">
+                        <div class="col-md-4 col-sm-12">
                         <div class="product-card">
                             <div>
                                 <div class="heart">
@@ -229,6 +259,8 @@
                     </div>
                 </div>
             </div>
+            </div>
+        </div>
         </section>
     </main>
     <footer>
@@ -262,5 +294,6 @@
             </div>
         </div>
     </footer>
+    <script src="assets/bootstrap.bundle.min.js"></script>
 </body>
 </html>
